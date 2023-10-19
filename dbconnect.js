@@ -1,3 +1,11 @@
+
+/*
+
+Author: Ian Flanagan Tricentis 2023
+Use at your own risk
+
+*/
+
 const mysql = require('mysql2');
 
 if (process.argv.length < 4) {
