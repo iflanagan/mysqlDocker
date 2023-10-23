@@ -17,7 +17,7 @@ git pull https://github.com/iflanagan/mysqlDocker.git
 docker build -t mysqldemo .  
 
 # starts the container of the image 
-docker run -d -p 3306:3306 --name mysqlcontainer mysqldemo
+docker run -d -p 0.0.0.0:3306:3306 --name mysqlcontainer mysqldemo
 
 # connect to the shell of the container
 
