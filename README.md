@@ -11,7 +11,7 @@ have node.js installed locally or whever you want to run this from
 Open a terminal window:
 cd to that directory where you want to copy the files 
 
-git pull https://github.com/iflanagan/mysqlDocker.git
+git clone https://github.com/iflanagan/mysqlDocker.git
 
 # builds the image 
 docker build -t mysqldemo .  
