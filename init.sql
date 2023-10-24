@@ -18,6 +18,12 @@ INSERT INTO users (username, password, email) VALUES
     ('ronit', 'test@#$123', 'ronit@testim.io'),
     ('ianflanagan', 'test@#$123', 'ian@testim.io');
 
+-- create stored proc
+CREATE PROCEDURE GetUsers()
+BEGIN
+    SELECT username,password FROM users;
+END;
+
 -- Modify user authentication method for 'root' user
 ALTER USER 'root'@'localhost' IDENTIFIED WITH 'caching_sha2_password' BY 'testim?5432';
 
