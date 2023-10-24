@@ -25,7 +25,8 @@ CREATE TABLE results (
 );
 
 -- Insert data into the results table
-INSERT INTO results (date_time, result_url) VALUES (CURRENT_TIMESTAMP(), 'https://app.testim.io/#/project/yUHggaUM53fuXM0PejOu/branch/master/test/CJnj0amO8qxeHyBH?result-id=mYAyHifMHUTZ123d');
+INSERT INTO results (date_time, result_url)
+VALUES (CURRENT_TIMESTAMP(), 'https://app.testim.io/#/project/yUHggaUM53fuXM0PejOu/branch/master/test/CJnj0amO8qxeHyBH?result-id=mYAyHifMHUTZ123d');
 
 -- Create a stored procedure to get users' email and password
 CREATE PROCEDURE GetAllUsers()
